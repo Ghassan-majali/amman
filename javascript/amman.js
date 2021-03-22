@@ -1,55 +1,68 @@
-// datatybes
+// // datatybes
 
-/* wellcome in jordan */ 
+// /* wellcome in jordan */ 
 
-// ask about the age  
-
-
-var age = prompt("whats your age?");
-
-console.log(age);
-if (age >= 18 && age <= 60) {
-    alert('welcome to jordan');
-} else if (age < 18 || age > 60) {
-    alert('sorry your not allowed');
-} else {
-    alert('please input a number');
-}
-
-// did u visit jordan 
+// // ask about the age  
 
 
-var jordan= prompt("did u visit jordan?");
+// var age = prompt("whats your age?");
 
-if(jordan=='yes'){
-    document.write ('You are from the family');
-}else if(jordan=='no'){
-    document.write('Your chance is now');
-}else{
-    alert('choose betwen yes or no next time');
+// function theAge (age) {
+    
+//     console.log(age);
+//     if (age >= 18 && age <= 60) {
+//         alert('welcome to jordan');
+//     } else if (age < 18 || age > 60) {
+//         alert('sorry your not allowed');
+//     } else {
+//         alert('please input a number');
+//     }
+// }
 
-}
+// theAge(age);
 
-// rated the site 
-// between 1 to 5 
-
-
-var howIsMySite = prompt('how many star you give me from 1 to 5 ?');
-var result = '';
-var star = '';
+// // did u visit jordan 
 
 
-star ='<img width ="40px" high ="40" src="pic/star.jpg"/>';
+// var jordan= prompt("did u visit jordan?");
 
-for (var i = 0; i  < howIsMySite; i++) {
-    if (howIsMySite<=6){
-        result += star;
+// function visitJordan (jordan) {
+
+//     console.log(jordan);
+
+//     if(jordan=='yes'){
+//         document.write ('You are from the family');
+//     }else if(jordan=='no'){
+//         document.write('Your chance is now');
+//     }else{
+//         alert('choose betwen yes or no next time');
+
+// }
+
+// }
+// visitJordan(jordan);
+
+
+// // rated the site 
+// // between 1 to 5 
+
+
+// var howIsMySite = prompt('how many star you give me from 1 to 5 ?');
+// var result = '';
+// var star = '';
+
+
+// star ='<img width ="40px" high ="40" src="pic/star.jpg"/>';
+
+// for (var i = 0; i  < howIsMySite; i++) {
+//     if (howIsMySite<=6){
+//         result += star;
                 
-    }
-    else if(howIsMySite>5){alert ('chose between 1 - 5'); howIsMySite = prompt('how many star you give me from 1 to 5 ?');}
-}
+//     }
+//     else if(howIsMySite>5){alert ('chose between 1 - 5'); howIsMySite = prompt('how many star you give me from 1 to 5 ?');}
+// }
 
-console.log(result);
+// console.log(result);
 
-document.write(result);
+// document.write(result);
 
